@@ -1,0 +1,1 @@
+{Aluno1=  Nome: Vinicius | Curso: EC | Turma: A | Série: 3}
