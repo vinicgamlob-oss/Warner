@@ -1,1 +1,1 @@
-{Aluno1=  Nome: Vinicius | Curso: EC | Turma: A | Série: 3}
+{Aluno    1=  Nome: Vinicius | Curso: EC | Turma: A | Série: 3, Aluno1=  Nome: Bola | Curso: EC | Turma: A | Série: 4}

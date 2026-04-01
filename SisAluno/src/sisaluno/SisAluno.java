@@ -4,11 +4,8 @@
  */
 package sisaluno;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
+
 import java.util.*;
 
 /**
@@ -16,11 +13,6 @@ import java.util.*;
  * @author Vinicius
  */
 public class SisAluno {
-
-    /**
-     * @param args the command line arguments
-     * @throws java.io.IOException
-     */
     public static void main(String[] args) throws IOException {
         Aluno a = new Aluno("Nome","Curso",'A',1);
          HashMap<String ,Aluno> Ra = new HashMap<>();
@@ -136,6 +128,7 @@ public class SisAluno {
                         gravarArq.print(Ra);
                         arq.close();
                         System.out.println("Log Registrada");
+                    break;
                 case 6:
                     System.out.println("Exibindo a Log : ");
                     BufferedReader buffRead = new BufferedReader(new FileReader("C:/Users/Vinicius/Documents/GitHub/Warner/logResgistro.txt"));
